@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "squidgame";
+    src: url("../fonts/gameOfSquids.ttf");
+}
+
+* {
+    font-family: "squidgame";
+}
+
+body {
+    background-color: #090b08;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#trailer {
+    background-color: #f44786;
+    height: 50px;
+}
+
+#trailer:hover,
+#trailer:focus {
+    background-color: #ed1b76;
+}
+
+#info {
+    height: 50px;
+}
+
+#info:hover,
+#info:focus {
+    background-color: #333931;
+}
+
+#game {
+    background-color: #f44786;
+    height: 50px;
+}
+
+#game:hover,
+#game:focus {
+    background-color: #ed1b76;
+}

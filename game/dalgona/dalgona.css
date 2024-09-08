@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "squidgame";
+    src: url("../../fonts/gameOfSquids.ttf");
+}
+
+* {
+    font-family: "squidgame";
+}
+
+html {
+    height: 80%;
+}
+
+body {
+    background-color: #090b08;
+    height: 100%;
+}
+
+div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: x-large;
+    height: 100px;
+}
+
+#main {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    background-color: aliceblue;
+    background-image: url('../../image/content1.jpeg');
+    background-size: cover;
+}
+
+#start {
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffd400;
+    border: 1px solid #ffea00;
+    border-radius: 5px;
+}
+
+#start:hover {
+    background-color: #ffea00;
+}
+
+#game {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    background-color: white;
+    display: none;
+}
+
+#game1 {
+    flex: 1;
+}
+
+#game2 {
+    flex: 1;
+}
+
+#game3 {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+}
+
+#game1:hover,
+#game1:focus {
+    border: 3px solid black;
+}
+
+#game2:hover,
+#game2:focus {
+    border: 3px solid black;
+}
+
+#game3:hover,
+#game3:focus {
+    border: 3px solid black;
+}
+
+#game1-game {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    background-color: white;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#needle_box {
+    width: 60px;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#needle_box #needle {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../image/needle.png');
+    background-size: 60px 60px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#stop {
+    margin-left: 15%;
+}

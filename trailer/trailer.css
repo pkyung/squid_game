@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "squidgame";
+    src: url("../fonts/gameOfSquids.ttf");
+}
+
+* {
+    font-family: "squidgame";
+}
+
+html {
+    height: 80%;
+}
+
+body {
+    background-color: #090b08;
+    height: 100%;
+}
+
+div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: x-large;
+    height: 100px;
+}
+
+iframe {
+    border: none;
+    width: 80%;
+    height: 80%;
+}
+
+#iframe_parent {
+    height: 100%;
+}

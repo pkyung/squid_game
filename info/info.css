@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "squidgame";
+    src: url("../fonts/gameOfSquids.ttf");
+}
+
+* {
+    font-family: "squidgame";
+}
+
+html {
+    height: 80%;
+}
+
+body {
+    background-color: #090b08;
+    height: 100%;
+}
+
+div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: x-large;
+    height: 100px;
+}
+
+#header_parent {
+    display: flex;
+}
+
+#contents {
+    flex: 1;
+    background-color: #037a76;
+    width: 50%;
+    height: 50px;
+}
+
+#contents:hover,
+#contents:focus {
+    background-color: #249f9c;
+}
+
+#characters {
+    flex: 1;
+    background-color:#ed1b76;
+    width: 50%;
+    height: 50px;
+}
+
+#characters:hover,
+#characters:focus {
+    background-color: #f44786;
+}
+
+#content_parent {
+    display: flex;
+    height: 100%;
+}
+
+#poster_img {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1;
+}
+
+#poster_content {
+    flex: 1;
+    margin-right: 10%;
+}
+
+#char_parent {
+    height: 100%;
+    display: none;
+}
+
+#left {
+    width: 10%;
+    height: 80%;
+}
+
+#characters_content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#text {
+    width: 10%;
+}
+
+#right {
+    width: 10%;
+    height: 80%;
+}
+
+#img {
+    width: 40%;
+}
